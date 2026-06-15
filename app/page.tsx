@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { getAllPosts, thisExportDoesNotExist } from "@/lib/posts";
-
-thisExportDoesNotExist();
+import { getAllPosts } from "@/lib/posts";
 
 export default function Home() {
   const posts = getAllPosts();
